@@ -1,0 +1,70 @@
+git-oodiff
+------------------------------------------
+
+Diff program for OpenDocument files
+
+A diff program to make it possible to diff OpenDocument (OpenOffice,
+Koffice ...) documents. A wrapper script to odt2txt program.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www-verimag.imag.fr/~moy/opendocument
+
+Canonical download:
+  http://www-verimag.imag.fr/~moy/opendocument/oodiff
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Matthieu Moy <Matthieu.Moy@imag.fr>
+  Bugs: Matthieu Moy <Matthieu.Moy@imag.fr>
+
+License:
+  GPL
+
+Language:
+  Bourne-Shell
+
+------------------------------------------
+
+Build instructions:
+  unpack git-oodiff-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./git-oodiff*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes: Jari Aalto
+- No manual page. Wrote one.
+- There is no upstream source package. It was created by downloading the
+  program with wget and tarring up the directory by date:
+
+  mkdir <PACKAGE-YYYY-MM-DD>
+  cd YYYY-MM-DD
+  wget <URL>
+  cd ..
+  tar -jcf <PACKAGE-YYYY-MM-DD>.tar.bz2 <PACKAGE-YYYY-MM-DD>
+
+----- version 20080328-1 -----
+- Initial release 2008-03-28 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

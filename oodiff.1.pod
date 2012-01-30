@@ -1,0 +1,55 @@
+#  This is manual page in Perl POD format. Read more at
+#  http://perldoc.perl.org/perlpod.html or run command:
+#
+#     perldoc perlpod | less
+#
+#  To check the syntax:
+#
+#     podchecker *.pod
+#
+#  Create manual page with command:
+#
+#    pod2man PAGE.N.pod > PAGE.N
+
+=pod
+
+=head1 NAME
+
+oodiff - Diff program for OpenOffice documents
+
+=head1 SYNOPSIS
+
+  oodiff [standard diff options] FILE FILE
+
+=head1 OPTIONS
+
+See diff(1) manual page
+
+=head1 DESCRIPTION
+
+A diff program to make it possible to diff OpenOffice documents. A
+wrapper script to odt2txt program. For graphical comparison, use
+OpenOffice.org menu: I<Edit => Compare Documents>.
+
+Homepage: http://www-verimag.imag.fr/~moy/opendocument
+
+=head1 ENVIRONMENT
+
+None.
+
+=head1 FILES
+
+None.
+
+=head1 SEE ALSO
+
+diff(1) odt2txt(1)
+
+=head1 AUTHORS
+
+This manual page was created by Jari Aalto for Cygwin (but
+may be used by others) because the original package did not include
+one. Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or
+later.
+
+=cut
