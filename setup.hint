@@ -1,3 +1,4 @@
+# ARCH=noarch
 sdesc: "Diff program for OpenDocument files"
 ldesc: "A diff program to make it possible to diff OpenDocument
 (OpenOffice, Koffice ...) documents. A wrapper script to odt2txt
