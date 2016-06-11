@@ -4,4 +4,4 @@ ldesc: "A diff program to make it possible to diff OpenDocument
 (OpenOffice, Koffice ...) documents. A wrapper script to odt2txt
 program."
 category: Utils
-requires: cygwin coreutils diffutils sed odt2txt
+requires: coreutils diffutils sed odt2txt
